@@ -22,7 +22,7 @@ my_http.createServer((request,response)->
 		pre_query = 'color_query_'
 
 		to_save[k.substr(pre_query.length)] = v for k, v of query when k.indexOf(pre_query) is 0
-		keys = (k for k, v, of to_save)
+		keys = (k for k, v of to_save)
 
 		if keys.length > 0
 
