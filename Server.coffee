@@ -60,6 +60,6 @@ my_http.createServer((request,response)->
 			else
 				response.writeHead 404
 				response.end()
-).listen 8080
+).listen 80
 
 
