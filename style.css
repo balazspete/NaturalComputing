@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+#sidebar {
+  background: #ccc;
+  width: 180px;
+  height: 100%;
+  padding: 5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#site {
+  margin-left: 190px;
+  height: 100%;
+}
+#body {
+  margin: 10px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+#header {
+  height: 50px;
+}
+#header h2 {
+  margin: 10px;
+  position: absolute;
+}
+#site p {
+  padding: 5px;
+}
+#hi {
+  width: 500px;
+  color: #fff;
+  margin: auto;
+  padding-top: 100px;
+  text-align: justify;
+}
+.color-picker {
+  position: relative;
+  height: 100px;
+  width: 150px;
+  background-color: #fff;
+  margin: 5px;
+  border: 1px solid black;
+}
+.type-display {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+}

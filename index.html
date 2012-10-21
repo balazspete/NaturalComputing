@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Website colours</title>
+		<link rel="stylesheet" media="screen" type="text/css" href="colorpicker/css/colorpicker.css" />
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="main">
+			<div id="hi">
+				<h2>Hello</h2>
+				<p>Thanks for helping out! Well, what is this website about? </p>
+				<p>The aim is to generate different colour-sets, which are used in websites.</p>
+				<p>Because computers cannot tell what colour sets are nice and what aren't, we need to teach them, but for that a large amount of data needs to be collected.</p>
+				<p>This is where you come in. If you have a spare minute two, I'd like you to randomly generate some colour sets by using the random button. You can ajust and modify the colours by clicking on the colours themselves in the sidebar.</p>
+				<p>Once you found a colour-set that you <strong>like</strong>, click the like button. If there's a set that you do not fancy, click <striong>dislike</strong>. <em>That's all :)</em></p>
+				<p>Thanks a lot!</p>
+				<p><strong>Baz</strong></p>
+				<br>
+				<button id="activate">Begin</button>
+				<br>
+				<p><em>Please don't troll, a lot of incorrect data will offset the experiment.</em></p>
+			</div>
+		</div>
+		<script type="text/x-handlebars-template" data-template="main">
+			<div id="sidebar">
+
+
+			</div>
+			<div id="site">
+				<div id="header">
+					<h2>Website Colours</h2>
+				</div>
+				<div id="body">
+
+				</div>
+			</div>
+		</script>
+		<script type="text/x-handlebars-template" data-template="color-picker">
+			<a href=".">Go Back</a>
+			<br>
+			{{#each colours}}
+				<div id="picker-{{type}}" class="color-picker" data-type="{{type}}" data-colour="{{colour}}" style="background:{{colour}}">
+
+					<div class="type-display">
+						<span>{{type}}</span>
+					</div>
+
+				</div>
+			{{/each}}
+			<br>
+			<button id="dislike">✘ Dislike</button>
+			<button id="like">✔ Like</button>
+			<br><br>
+			<button id="random">New Random</button>
+		</script>
+		<script type="text/x-handlebars-template" data-template="dummy-content">
+			{{#each content}}
+				<p>{{text}}</p>
+			{{/each}}
+		</script>
+
+		<script type="text/javascript" src="external.js"></script>
+		<script type="text/javascript" src="colorpicker/js/colorpicker.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
