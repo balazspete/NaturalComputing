@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine
+END
+EncogEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/EncogEngine.java
+END
+StatusReportable.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/StatusReportable.java
+END
+EngineNeuralNetwork.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/EngineNeuralNetwork.java
+END
+EngineMachineLearning.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/EngineMachineLearning.java
+END
+EncogEngineError.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/EncogEngineError.java
+END

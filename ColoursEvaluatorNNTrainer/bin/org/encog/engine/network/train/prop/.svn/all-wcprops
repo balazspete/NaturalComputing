@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop
+END
+TrainFlatNetworkOpenCL.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop/TrainFlatNetworkOpenCL.java
+END
+TrainFlatNetworkProp.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop/TrainFlatNetworkProp.java
+END
+TrainFlatNetworkBackPropagation.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop/TrainFlatNetworkBackPropagation.java
+END
+RPROPConst.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop/RPROPConst.java
+END
+TrainFlatNetworkManhattan.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop/TrainFlatNetworkManhattan.java
+END
+TrainFlatNetworkSCG.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop/TrainFlatNetworkSCG.java
+END
+OpenCLTrainingProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop/OpenCLTrainingProfile.java
+END
+TrainFlatNetworkResilient.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/prop/TrainFlatNetworkResilient.java
+END

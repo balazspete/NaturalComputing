@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/calc
+END
+ConcurrentCalculate.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/calc/ConcurrentCalculate.java
+END
+CalcOpenCLDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/calc/CalcOpenCLDevice.java
+END
+CalculationResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/calc/CalculationResult.java
+END

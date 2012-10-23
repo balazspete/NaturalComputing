@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation
+END
+ActivationRamp.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationRamp.java
+END
+ActivationLOG.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationLOG.java
+END
+ActivationSoftMax.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationSoftMax.java
+END
+ActivationFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationFunction.java
+END
+ActivationCompetitive.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationCompetitive.java
+END
+ActivationBiPolar.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationBiPolar.java
+END
+ActivationSIN.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationSIN.java
+END
+ActivationTANH.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationTANH.java
+END
+ActivationGaussian.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationGaussian.java
+END
+ActivationLinear.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationLinear.java
+END
+ActivationStep.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationStep.java
+END
+ActivationSigmoid.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/activation/ActivationSigmoid.java
+END

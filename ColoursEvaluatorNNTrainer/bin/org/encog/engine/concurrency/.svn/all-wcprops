@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency
+END
+TaskGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/TaskGroup.java
+END
+DetermineWorkload.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/DetermineWorkload.java
+END
+EngineConcurrency.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/EngineConcurrency.java
+END
+PoolItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/PoolItem.java
+END
+EngineTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/concurrency/EngineTask.java
+END

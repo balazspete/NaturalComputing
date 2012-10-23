@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/opencl
+END
+EncogCLQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/opencl/EncogCLQueue.java
+END
+EncogCLPlatform.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/opencl/EncogCLPlatform.java
+END
+EncogCLError.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/opencl/EncogCLError.java
+END
+EncogCLItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/opencl/EncogCLItem.java
+END
+EncogCL.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/opencl/EncogCL.java
+END
+EncogCLDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/opencl/EncogCLDevice.java
+END

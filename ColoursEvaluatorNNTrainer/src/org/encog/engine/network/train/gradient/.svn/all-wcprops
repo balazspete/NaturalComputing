@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/gradient
+END
+GradientWorkerCPU.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/gradient/GradientWorkerCPU.java
+END
+FlatGradientWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/train/gradient/FlatGradientWorker.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util
+END
+BoundMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/BoundMath.java
+END
+ObjectPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/ObjectPair.java
+END
+BoundNumbers.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/BoundNumbers.java
+END
+EngineArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/EngineArray.java
+END
+IntRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/IntRange.java
+END
+Format.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/Format.java
+END
+ErrorCalculation.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/ErrorCalculation.java
+END
+Stopwatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/Stopwatch.java
+END
+ErrorCalculationMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/ErrorCalculationMode.java
+END
+ResourceLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/util/ResourceLoader.java
+END

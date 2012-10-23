@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/flat
+END
+FlatNetwork.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/flat/FlatNetwork.java
+END
+ValidateForOpenCL.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/flat/ValidateForOpenCL.java
+END
+FlatLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/flat/FlatLayer.java
+END
+FlatNetworkRBF.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3194/trunk/encog-engine/src/main/java/org/encog/engine/network/flat/FlatNetworkRBF.java
+END
