@@ -4,7 +4,11 @@ import java.util.Arrays;
 import org.neuroph.core.NeuralNetwork;
 import org.neuroph.core.learning.SupervisedTrainingElement;
 import org.neuroph.core.learning.TrainingSet;
+import org.neuroph.nnet.CompetitiveNetwork;
 import org.neuroph.nnet.MultiLayerPerceptron;
+import org.neuroph.nnet.Perceptron;
+import org.neuroph.nnet.SupervisedHebbianNetwork;
+import org.neuroph.nnet.UnsupervisedHebbianNetwork;
 import org.neuroph.nnet.learning.MomentumBackpropagation;
 import org.neuroph.util.TransferFunctionType;
 
@@ -18,7 +22,7 @@ public class ColoursNeuralNetwork {
     /**
      * Runs this sample
      */
-    public static void main(String[] args) {
+	public static void main(String[] args){
         // create training set (logical XOR function)
     	int inputs = 96;
     	int outputs = 1;
@@ -36,7 +40,7 @@ public class ColoursNeuralNetwork {
 //        trainingSet.addElement(new SupervisedTrainingElement(new double[]{1, 1}, new double[]{0}));
 
         // create multi layer perceptron
-        MultiLayerPerceptron myMlPerceptron = new MultiLayerPerceptron(TransferFunctionType.TANH, inputs, inputs*2, outputs);
+        MultiLayerPerceptron myMlPerceptron = new MultiLayerPerceptron(TransferFunctionType.SIGMOID, inputs, inputs, 1);
 
         // enable batch if using MomentumBackpropagation
         if( myMlPerceptron.getLearningRule() instanceof MomentumBackpropagation )
