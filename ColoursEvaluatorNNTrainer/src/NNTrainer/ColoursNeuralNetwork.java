@@ -9,7 +9,12 @@ import org.neuroph.nnet.MultiLayerPerceptron;
 import org.neuroph.nnet.Perceptron;
 import org.neuroph.nnet.SupervisedHebbianNetwork;
 import org.neuroph.nnet.UnsupervisedHebbianNetwork;
+import org.neuroph.nnet.learning.DynamicBackPropagation;
 import org.neuroph.nnet.learning.MomentumBackpropagation;
+import org.neuroph.nnet.learning.ResilientPropagation;
+import org.neuroph.nnet.learning.SimulatedAnnealingLearning;
+import org.neuroph.nnet.learning.SupervisedHebbianLearning;
+import org.neuroph.nnet.learning.UnsupervisedHebbianLearning;
 import org.neuroph.util.TransferFunctionType;
 
 /**
@@ -29,8 +34,11 @@ public class ColoursNeuralNetwork {
         TrainingSet<SupervisedTrainingElement> trainingSet = new TrainingSet<SupervisedTrainingElement>(inputs, outputs);
         TrainingSetParser parser = new TrainingSetParser("input", inputs);
         
+        int index = 0;
         for(TrainingData<Double> td : parser.getList()){
         	trainingSet.addElement(new SupervisedTrainingElement(td.inputs(), td.output()));
+        	index++;
+        	if(index> 100) break;
         }
         
         
@@ -41,10 +49,11 @@ public class ColoursNeuralNetwork {
 
         // create multi layer perceptron
         MultiLayerPerceptron myMlPerceptron = new MultiLayerPerceptron(TransferFunctionType.SIGMOID, inputs, inputs, 1);
+        myMlPerceptron.setLearningRule(new SupervisedHebbianLearning());
 
         // enable batch if using MomentumBackpropagation
-        if( myMlPerceptron.getLearningRule() instanceof MomentumBackpropagation )
-        	((MomentumBackpropagation)myMlPerceptron.getLearningRule()).setBatchMode(true);
+//        if( myMlPerceptron.getLearningRule() instanceof MomentumBackpropagation )
+//        	((MomentumBackpropagation)myMlPerceptron.getLearningRule()).setBatchMode(true);
 
         // learn the training set
         System.out.println("Training neural network...");

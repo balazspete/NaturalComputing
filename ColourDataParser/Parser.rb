@@ -9,6 +9,9 @@ class Colour
 	def binary
 		"0#{i_to_b(@red.to_i, 256)}0#{i_to_b(@green.to_i, 256)}0#{i_to_b(@blue.to_i, 256)}"
 	end
+	def to_s
+		"#{@red}:#{@green}:#{@blue}"
+	end
 	private
 	def parse c
 		@red = @green = @blue = 0
@@ -47,6 +50,9 @@ class Entry
 	def binary
 		"#{@background.binary}#{@foreground.binary}#{@header.binary}#{@font.binary}#{@like ? '1' : '0'}"
 	end
+	def to_s
+		"#{@background}:#{@foreground}:#{@header}:#{@font}:#{@like ? '1' : '0'}"
+	end
 end
 class Parser
 	def initialize in_file, out_file
@@ -74,4 +80,4 @@ class Parser
 	end
 end
 
-Parser.new 'colours.json', 'output'
+Parser.new 'colours2.json', 'output2'
